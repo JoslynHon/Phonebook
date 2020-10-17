@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="?android:listSeparatorTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="@string/phonebook_title_label"/>
+
+                <EditText
+                    android:id="@+id/phonebook_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorGrey"
+                    android:backgroundTint="@color/colorGrey"
+                    android:textColor="@color/colorWhite"
+                    android:hint="@string/phonebook_title_hint"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phonebook_details_label"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/phonebook_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/colorGrey"
+                android:hint="@string/phonebook_details"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorGrey" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/phonebook_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="210dp"
+            android:backgroundTint="@color/colorDarkGrey"
+            android:drawableEnd="@drawable/ic_next"
+            android:drawableStart="@drawable/ic_message"
+            android:text="@string/phonebook_button"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+</ScrollView>

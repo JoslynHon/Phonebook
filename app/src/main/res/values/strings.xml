@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PhoneBook</string>
+    <string name="phonebook_title_hint">Enter a name</string>
+    <string name="phonebook_title_label">Name</string>
+    <string name="phonebook_details_label">Phone Number</string>
+    <string name="phonebook_date">Birthday</string>
+    <string name="phonebook_title">To-Do Title</string>
+    <string name="date_picker_title">Birthday:</string>
+    <string name="new_phonebook_item">Add new contact</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d Contacts</string>
+    <string name="delete_phonebook">Delete Contact</string>
+    <string name="phonebook_details">Enter a phone number</string>
+    <string name="empty_text">There are no contacts here!</string>
+    <string name="new_phonebook">ADD IT NOW</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$d Contact</item>
+        <item quantity="other">%1$d Contacts</item>
+    </plurals>
+    <string name="phonebook_button">Share Contact</string>
+    <string name="send_phonebook">Share contact via</string>
+    <string name="message_subject">Share Contact</string>
+    <string name="phonebook_message">Name: %1$s \n\n Phone number: %2$s</string>
+</resources>
